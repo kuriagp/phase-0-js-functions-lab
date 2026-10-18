@@ -33,6 +33,7 @@ function calculateDiscountedPrice(originalPrice, discountPercentage) {
     return originalPrice - (originalPrice * (discountPercentage / 100));
 }
 
+//Function Calls Tests
 
 console.log(calculateTax(200));
 
